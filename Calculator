@@ -7,8 +7,24 @@ class Program
         Console.Write("Enter first number: ");  
         double num1 = Convert.ToDouble(Console.ReadLine());  
         Console.Write("Enter second number: ");  
+ SUBTRACTION
+ DIVISION
+        if (num2 != 0)  
+        {  
+            double result = num1 / num2;  
+            Console.WriteLine("The quotient is: " + result);  
+        }  
+        else  
+        {  
+            Console.WriteLine("Error: Cannot divide by zero.");  
+        }  
+
+        double result = num1 * num2;  
+        Console.WriteLine("The product is: " + result);  
+ MULTIPLICATION
+
         double num2 = Convert.ToDouble(Console.ReadLine());  
         double result = num1 + num2;  
-        Console.WriteLine("The sum is: " + result);  
+ SUM
     }  
 }

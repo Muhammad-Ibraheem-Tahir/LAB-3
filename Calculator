@@ -1,0 +1,13 @@
+using System;  
+
+class Program  
+{  
+    static void Main()  
+    {  
+        string name = "Muhammad Ibraheem Tahir";   
+        string rollNumber = "24-ST-019";
+
+        Console.WriteLine("Name: " + name);  
+        Console.WriteLine("Roll Number: " + rollNumber);  
+    }  
+}
